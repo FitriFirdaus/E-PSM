@@ -22,7 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 
-	<title>UiTM | SPAP</title>
+	<title>UMP | E-PSM</title>
 
 	<!-- Styles -->
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -45,7 +45,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 			<!-- Right navbar links -->
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a href="home" class="nav-link">Utama</a>
+					<a href="home" class="nav-link">Main</a>
 				</li>
 
 				<li class="nav-item active">
@@ -171,7 +171,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 							</a>
 						</li>
 						@endif
-					
+
 
 					</ul>
 				</nav>

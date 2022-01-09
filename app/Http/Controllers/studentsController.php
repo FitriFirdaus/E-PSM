@@ -26,7 +26,6 @@ class studentsController extends Controller
         return View('StudentProfile.editprofile')->with('students', $students);
         // var_dump($students);
 
-
     }
 
     public function updateprofile(Request $req)
