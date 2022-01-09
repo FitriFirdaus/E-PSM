@@ -316,3 +316,8 @@ use App\Http\Controllers\studentsController;
 Route::get('home', [studentsController::class, 'index']);
 Route::get('EditProfile', [studentsController::class, 'editprofile']);
 Route::post('update_profile', 'studentsController@updateprofile');
+
+use App\Http\Controllers\LogbookController;
+Route::get('logbookview', [LogbookController::class, 'logbookview']);
+
+
